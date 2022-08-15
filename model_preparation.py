@@ -11,7 +11,7 @@ from sklearn.model_selection import ShuffleSplit
 from sklearn.model_selection import cross_validate
 from sklearn.linear_model import Ridge
 
-DF_total = pd.read_csv("One_hot.csv")
+DF_total = pd.read_csv('One_hot.csv')
 DF_train = pd.read_csv('Train.csv', delimiter = ',')
 DF_test = pd.read_csv('Test.csv', delimiter = ',')
 Target = pd.read_csv('Target.csv', delimiter = ',')
