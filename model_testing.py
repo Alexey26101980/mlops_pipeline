@@ -10,4 +10,4 @@ Submission = pd.DataFrame(y_test, columns = ["polution"])
 
 #Перезапись в файл
 Submission.to_csv('My_Submission.csv',index=False)
-print(My_Submission.head())
+print(Submission.head())
